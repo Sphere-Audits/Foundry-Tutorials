@@ -32,7 +32,7 @@ contract CPAMM {
     }
 
     function swap(address _tokenIn, uint256 _amountIn)
-        external
+      external
         returns (uint256 amountOut)
     {
         require(
